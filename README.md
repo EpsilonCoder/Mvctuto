@@ -3,30 +3,26 @@
 
 ## Description
 
-This *PHP Blog System* has an MVC pattern, uses Traits (PHP 5.4), Namespace (PHP 5.3), Singleton pattern, PDO (PHP 5.1) and the new PHP Password Hashing feature (PHP 5.5).
+Ce * PHP Blog System * a un modèle MVC, utilise Traits (PHP 5.4), Namespace (PHP 5.3), modèle Singleton, PDO (PHP 5.1) et la nouvelle fonctionnalité PHP Password Hashing (PHP 5.5).
 
-The project was a *PHP Challenge Project* I have done.
+Le projet était un *PHP Challenge Project* que j'ai réalisé.
 
 
-## Why this MVC Blog System can be very Useful for You?
+## Pourquoi ce système de blog MVC peut vous être très utile ?
+Si vous avez besoin de coder un site Web simple sous un code professionnel et très agréable/propre (comme j'aime beaucoup le faire), ce script vous sera très utile pour *démarrer sur de bonnes bases* et *économiser du temps et de l'argent*.
 
-If you need to code a simple website under a Professional and very nice/clean code (as I really enjoy doing), this script will be very useful in order to *start on good basis* and *save time and money*.
-
-However, if you need to build a blog system, again this project can be used as a *framework* to start your project easily under a *good development pattern* and *good development practice* and organization.
-
+Cependant, si vous avez besoin de créer un système de blog, encore une fois, ce projet peut être utilisé comme * cadre * pour démarrer facilement votre projet selon un * bon modèle de développement * et * de bonnes pratiques de développement * et une organisation.
 
 ## Requirements that were Requested for the Project
 
 ### Requirements
 
-* The project should be written in object-oriented PHP targeting version 5.5 or higher
-* It should be all self-written, no existing frameworks or libraries
-* It should have good security (e.g., hashed passwords, protect against SQL injection, shouldn't have any error when we try to change URL query strings or to hack it, etc)
-* Should use a MySQL database to store admin account and article data
+* Le projet doit être écrit en PHP orienté objet ciblant la version 5.5 ou supérieure
+* Tout doit être auto-écrit, sans frameworks ni bibliothèques existants
+* Il doit avoir une bonne sécurité (par exemple, mots de passe hachés, protection contre l'injection SQL, ne doit pas avoir d'erreur lorsque nous essayons de modifier les chaînes de requête d'URL ou de le pirater, etc.)
+* Devrait utiliser une base de données MySQL pour stocker le compte administrateur et les données d'article
 
-### Specification
 
-*Build a simple blog with the following functionalities*
 
 #### The Frontend
 
@@ -34,35 +30,16 @@ However, if you need to build a blog system, again this project can be used as a
 * Single blog article showing the **title**, **full body**, and the **date**
 
 #### The Backend
+* Liste de tous les articles du blog
+* Possibilité d'ajouter un nouvel article de blog avec un titre et un corps. Le titre doit autoriser un maximum de 50 caractères
+* Possibilité de modifier un article de blog existant
+* Possibilité de supprimer un article
+* Fonction de déconnexion pour l'utilisateur administrateur
 
-* List of all the blog articles
-* Possibility to add a new blog article with a title and body. The title should allow a maximum of 50 characters
-* Possibility to edit an existing blog article
-* Possibility to delete an article
-* Logout feature for the admin user
+Le code HTML et CSS doit être limité au minimum nécessaire pour rendre le site Web fonctionnel - Ce projet vise uniquement à évaluer la façon dont vous abordez le problème et non sa qualité.
 
-HTML and CSS code should be kept to the minimum needed to make the website functional – This project is purely to assess how you approach the problem and not how good it looks.
-
-
-## Server Requirements of the Web App
-
-* **Application Server** PHP 5.5.0 or higher.
-
-* **PHP Extension** mbstring
-
-* **Database MySQL/MariaDB 5** or higher.
 
 
 ## The Author
 
-[Pierre-Henry Soria](http://ph7.me)
-
-
-## Contact the Author
-
-By email at: *phy [AT] hizup [D0T] uk*
-
-
-## License
-
-This blog system (PHP script) is under [Lesser General Public License](http://www.gnu.org/copyleft/lesser.html) (LGPL); See the LICENSE.txt file for more information.
+EpsilonCoder
