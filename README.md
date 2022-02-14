@@ -1,4 +1,4 @@
-# Simple PHP MVC Blog System
+# Système de blog PHP MVC simple
 
 
 ## Description
@@ -13,9 +13,9 @@ Si vous avez besoin de coder un site Web simple sous un code professionnel et tr
 
 Cependant, si vous avez besoin de créer un système de blog, encore une fois, ce projet peut être utilisé comme * cadre * pour démarrer facilement votre projet selon un * bon modèle de développement * et * de bonnes pratiques de développement * et une organisation.
 
-## Requirements that were Requested for the Project
+## Exigences qui ont été demandées pour le projet
 
-### Requirements
+### Exigences
 
 * Le projet doit être écrit en PHP orienté objet ciblant la version 5.5 ou supérieure
 * Tout doit être auto-écrit, sans frameworks ni bibliothèques existants
@@ -26,8 +26,8 @@ Cependant, si vous avez besoin de créer un système de blog, encore une fois, c
 
 #### The Frontend
 
-* List of blog articles showing the **title**, **body** truncated to 100 characters, and **date**. It should show only the latest 5 articles
-* Single blog article showing the **title**, **full body**, and the **date**
+* Liste des articles de blog affichant le **titre**, le **corps** tronqué à 100 caractères et la **date**. Il ne devrait afficher que les 5 derniers articles
+* Article de blog unique montrant le **titre**, le **corps complet** et la **date**
 
 #### The Backend
 * Liste de tous les articles du blog
